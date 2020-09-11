@@ -1,0 +1,21 @@
+@media(min-width: 576px){
+    .col{
+        display: flex;
+       
+        
+    }
+}
+.box{
+    margin: 5px;
+    height: 200px;
+    border: 2px solid black;
+    /* flex-direction: row; */
+    flex: 1;
+    background-color: blue;
+    text-align: center;
+    box-shadow: inset 2px 2px 6px 4px black;
+   
+}
+.col div:nth-child(odd){
+    background-color: brown;
+}
